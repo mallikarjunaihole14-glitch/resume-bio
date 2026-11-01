@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header>
+    <h1>My Personal Portfolio</h1>
+    <p>Resume and Bio-data Website</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="resume.html">Resume</a>
+    <a href="biodata.html">Bio-data</a>
+</nav>
+
+<div class="controls">
+    <button onclick="toggleMode()" id="modeBtn">Dark Mode</button>
+</div>
+
+<main class="container">
+    <section class="profile-section">
+
+<img src="./profile.png" alt="Profile Photo" class="profile">
+        <h2>Mallikarjun Aihole</h2>
+        <h3>Computer Science Engineering Student</h3>
+
+        <p>
+            Hello! I am an engineering student interested
+            in technology, programming and innovation.
+            I enjoy learning new skills and developing
+            creative solutions.
+        </p>
+
+        <div class="buttons">
+            <a href="resume.html" class="btn">View Resume</a>
+            <a href="biodata.html" class="btn">View Bio-data</a>
+        </div>
+
+        <hr>
+
+        <h3>Current Date and Time</h3>
+        <p id="datetime"></p>
+
+    </section>
+</main>
+
+<button class="top-btn" onclick="goToTop()">↑</button>
+
+<footer>
+    <p>© 2026 My Personal Website</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,180 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+    color: #333;
+    line-height: 1.7;
+    transition: 0.3s;
+}
+
+header {
+    background: #172554;
+    color: white;
+    text-align: center;
+    padding: 35px 15px;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+nav {
+    background: #1e3a8a;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #facc15;
+}
+
+.controls {
+    text-align: center;
+    margin: 15px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.profile-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.profile {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #e2e8f0;
+}
+
+h2 {
+    color: #172554;
+    margin: 15px 0;
+}
+
+h3 {
+    color: #1e3a8a;
+    margin: 25px 0 10px;
+}
+
+p {
+    margin-bottom: 12px;
+}
+
+ul {
+    margin-left: 25px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #cbd5e1;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background: #dbeafe;
+    color: #172554;
+}
+
+.btn, button {
+    display: inline-block;
+    background: #1e3a8a;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn:hover, button:hover {
+    background: #2563eb;
+}
+
+.top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+footer {
+    background: #172554;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 40px;
+}
+
+.dark-mode {
+    background: #111827;
+    color: white;
+}
+
+.dark-mode .container {
+    background: #1f2937;
+    color: white;
+}
+
+.dark-mode h2,
+.dark-mode h3 {
+    color: #93c5fd;
+}
+
+.dark-mode th {
+    background: #374151;
+    color: white;
+}
+
+.dark-mode td {
+    border-color: #64748b;
+}
+
+@media (max-width: 600px) {
+    .container {
+        margin: 15px;
+        padding: 18px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px 8px;
+    }
+
+    table {
+        font-size: 13px;
+    }
+
+    th, td {
+        padding: 7px;
+    }
+}
